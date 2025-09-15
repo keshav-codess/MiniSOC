@@ -46,8 +46,8 @@
 SOC/
 ├── src/                         # Java source files
 │   ├── SOCGUI.java              # Main GUI and logic
-│   ├── Sidebar.java             # (if any additional UI classes)
-│   └── ...                      # Other Java classes
+│   ├── SOCProject.java          # (static implementation)
+│                   
 ├── lib/                         # JAR dependencies
 │   └── sqlite-jdbc-3.42.0.0.jar
 ├── .gitignore                    # Ignore compiled files, IDE settings
@@ -73,4 +73,27 @@ SOC/
 
 ```bash
 git clone https://github.com/your-username/SOC-Dashboard.git
-cd SOC-Dashboard
+cd SOC
+```
+
+---
+
+### 2️⃣ Compile and Run
+
+-Navigate to src folder.
+
+```bash
+cd src
+```
+
+- Now compile the GUI code and execute.
+
+```bash
+javac -cp ".;..\lib\sqlite-jdbc-3.50.3.0.jar" SOCGUI.java
+java -cp ".;..\lib\sqlite-jdbc-3.50.3.0.jar" SOCGUI  
+```
+
+- Note : Use .: instead of .; on Linux/macOS
+
+  ---
+
