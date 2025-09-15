@@ -1,4 +1,4 @@
-<h1 align="center">🛡️ SOC Dashboard</h1>
+<h1 align="center">🛡️ Mini SOC</h1>
 <h3 align="center">A Security Operations Center Incident Tracker Built in Java</h3>
 
 <p align="center">
@@ -80,7 +80,7 @@ cd SOC
 
 ### 2️⃣ Compile and Run
 
--Navigate to src folder.
+- Navigate to src folder.
 
 ```bash
 cd src
@@ -94,6 +94,21 @@ java -cp ".;..\lib\sqlite-jdbc-3.50.3.0.jar" SOCGUI
 ```
 
 - Note : Use .: instead of .; on Linux/macOS
+  
 
   ---
 
+## 🙌 Acknowledgements
+
+- 💻 Java Swing inspiration from [Oracle Swing Docs](https://docs.oracle.com/javase/tutorial/uiswing/)
+- 🐬 JDBC & SQLite integration from [SQLite Official Docs](https://www.sqlite.org/docs.html)
+
+---
+
+### 👨‍💻 Author
+
+👨‍💻 Made with ❤️ by [Keshav](https://github.com/keshav-codess)
+
+
+
+If you liked this project, consider ⭐ starring the repo and sharing it — _it helps a lot!_
