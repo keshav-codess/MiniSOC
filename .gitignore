@@ -1,0 +1,9 @@
+*.class
+
+.vscode/
+
+*.log
+*.db
+
+.DS_Store
+Thumbs.db
