@@ -61,9 +61,10 @@ SOC/
 
 ## 🖼️ Screenshots
 
-| Main Dashboard                               | Incident Details Window                     |
-|----------------------------------------------|--------------------------------------------|
-| <img src="assets/dashboard.png" width="300"/> | <img src="assets/incident_details.png" width="300"/> |
+
+| Upload                              | Dashboard                                    | Details                              |
+|-------------------------------------------|------------------------------------------|------------------------------------------|
+| <img src="assets/upload.png" width="300"/> | <img src="assets/dashboard.png" width="300"/> | <img src="assets/details.png" width="300"/> |
 
 ---
 
